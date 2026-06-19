@@ -1,0 +1,114 @@
+.answer {
+	position: relative;
+	margin-top: 2.2rem;
+	padding: 1rem 2rem;
+	font-size: 1.6rem;
+	width: 42rem;
+	text-align: center;
+	background: #2d244f;
+	background: linear-gradient(135deg, rgba(75, 76, 63, 1) 0%, #3d3268 35%, rgba(75, 76, 63, 1) 85%);
+	color: white;
+	border-radius: 0.8rem;
+	box-shadow: 2px 2px 8px var(--gold);
+	z-index: 1;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.answer::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(135deg, rgb(109, 110, 94) 0%, #4e3f86 35%, rgb(113, 114, 97) 85%);
+	z-index: -1;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.answer:hover::before {
+	opacity: 1;
+}
+
+.answer:disabled:not(.selected__answer):not(.correct__answer):not(.wrong__answer) {
+	background: #7465ad;
+	background: linear-gradient(135deg, rgba(75, 76, 63, 1) 0%, #605f66 35%, rgba(75, 76, 63, 1) 85%);
+	cursor: default;
+}
+
+.answer:disabled:not(.selected__answer):not(.correct__answer):not(.wrong__answer)::before {
+	background: #7465ad;
+	background: linear-gradient(135deg, rgba(75, 76, 63, 1) 0%, #605f66 35%, rgba(75, 76, 63, 1) 85%);
+	cursor: default;
+}
+
+.correct__answer {
+	background: #0ddd18;
+}
+
+.wrong__answer {
+	background: #f43f5e;
+}
+
+.selected__answer {
+	background: #f59e0b;
+}
+
+.modal {
+	border-radius: 16px;
+	background: #2d244f;
+	background: linear-gradient(135deg, rgba(75, 76, 63, 1) 0%, #3d3268 50%, rgba(75, 76, 63, 1) 85%);
+}
+
+.modal__shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.671);
+	z-index: 20;
+}
+
+.closeBtn {
+	transition: transform .3s;
+}
+
+.closeBtn:hover {
+	transform: scale(1.08);
+}
+
+.diagram {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.diagram__box {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: end;
+	margin-top: 1.6rem;
+}
+
+@media(width < 450px) {
+	.answer {
+		width: 36rem;
+	}
+}
+
+@media(width < 375px) {
+	.answer {
+		width: 32rem;
+	}
+}
+
+@media(width < 335px) {
+	.answer {
+		width: 28rem;
+	}
+}

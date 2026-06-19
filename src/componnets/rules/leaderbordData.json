@@ -1,0 +1,27 @@
+[
+	{
+		"id": "p1",
+		"name": "Tomasz",
+		"wonAmount": "250 000zł"
+	},
+	{
+		"id": "p2",
+		"name": "Kasia",
+		"wonAmount": "125 000zł"
+	},
+	{
+		"id": "p3",
+		"name": "Łukasz",
+		"wonAmount": "75 000zł"
+	},
+	{
+		"id": "p4",
+		"name": "Grażka",
+		"wonAmount": "50 000zł"
+	},
+	{
+		"id": "p5",
+		"name": "Robert",
+		"wonAmount": "5 000zł"
+	}
+]

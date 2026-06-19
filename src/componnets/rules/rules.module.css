@@ -1,0 +1,117 @@
+.rules__card {
+	position: relative;
+	height: 60rem;
+	width: 40rem;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+	overflow: hidden;
+}
+
+.rules__card__one {
+	background-image: url('../../../public/rule-one.png');
+}
+.rules__card__two {
+	background-image: url('../../../public/rule-two.png');
+}
+.rules__card__three {
+	background-image: url('../../../public/rule-three.png');
+	background-position: 26% 50%;
+}
+.rules__card__four {
+	background-image: url('../../../public/rule-four.png');
+	background-position: 100% 50%;
+}
+
+.rules__btn {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	padding: 1rem;
+	background: none;
+	color: white;
+	cursor: crosshair;
+	z-index: 5;
+}
+
+.rules__btn:hover ~ .rules__text {
+	clip-path: circle(120% at 50% 50%);
+}
+
+.rules__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 8rem 3rem;
+	background-color: rgba(0, 0, 0, 0.842);
+	color: white;
+	clip-path: circle(0 at 50% 50%);
+	transition: clip-path 0.8s;
+}
+
+.rules__title {
+	font-size: 2.4rem;
+	color: var(--gold);
+	font-weight: 500;
+}
+
+.leaderboard__item {
+	position: relative;
+	background: #2d244f;
+	background: linear-gradient(135deg, rgba(75, 76, 63, 1) 0%, rgba(45, 36, 79, 1) 25%, rgba(75, 76, 63, 1) 100%);
+	box-shadow: 2px 2px 10px black;
+	border: 1px solid rgb(49, 49, 226);
+	overflow: hidden;
+}
+
+.leaderboard__item::before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: -30px;
+	left: -130px;
+	width: 100px;
+	height: 160%;
+	background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+	animation: leaderboard 1.2s ease-in infinite;
+	animation-delay: var(--delay);
+	transform: rotate(20deg);
+	z-index: 2;
+}
+
+@keyframes leaderboard {
+	0% {
+		left: -130px;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+@media (width < 420px) {
+	.rules__card {
+		height: 60rem;
+		width: 35rem;
+	}
+}
+
+@media (width < 375px) {
+	.rules__card {
+		height: 60rem;
+		width: 28rem;
+	}
+}
+
+@media (width < 320px) {
+	.rules__card {
+		height: 60rem;
+		width: 24rem;
+	}
+}

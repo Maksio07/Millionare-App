@@ -24,7 +24,7 @@ export default function LeaderBoard() {
 							<li
 								key={item.id}
 								id={item.id}
-								className={`${styles.leaderboard__item} relative flex items-center justify-evenly mb-6 pt-8 pb-8 pl-4 pr-4 w-160 h-12 bg-[#2d244f] text-white text-3xl text-wrap rounded-md max-[420px]:w-120 max-[320px]:w-100`}
+								className={`${styles.leaderboard__item} relative flex items-center justify-evenly mb-8 pt-8 pb-8 pl-4 pr-4 w-180 h-12 text-white text-3xl text-wrap rounded-md max-[420px]:w-120 max-[320px]:w-100`}
 								style={{ '--delay': `${delay}s` } as React.CSSProperties}>
 								<Award color='gold' className='absolute left-4' />
 								<p>{item.name}</p>

@@ -10,10 +10,12 @@ export default function Answers({
 	currentQuestion,
 	questionNumber,
 	loadedQuestionsIds,
+	questionPrice,
 }: {
 	currentQuestion: any
 	questionNumber: number
 	loadedQuestionsIds: Array<string>
+	questionPrice: number
 }) {
 	const router = useRouter()
 	const [isPending, startTransition] = useTransition()
@@ -41,13 +43,13 @@ export default function Answers({
 
 			setTimeout(() => {
 				if (result.success) {
-					if (questionNumber < 12) {
+					if (questionNumber < 11) {
 						router.push(`/game/${loadedQuestionsIds[questionNumber + 1]}`)
 					} else {
-						router.push('/game/win')
+						router.push(`/game/game-over?quesnumber=${questionNumber + 1}&money=${questionPrice}`)
 					}
 				} else {
-					router.push('/game/game-over')
+					router.push(`/game/game-over?quesnumber=${questionNumber + 1}&money=${questionPrice}`)
 				}
 				setSelectedAnswer('')
 				setAnswerStatus(null)

@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
+import { redirect } from 'next/navigation'
 import { getHelpersData, handleGameHelpers } from '@/app/actions/game'
 import HelperBtn from '@/src/UI/HelperBtn'
 import ViewersModal from './ViewersModal'
@@ -22,9 +23,10 @@ export default function HelperBtns({
 	correctAnswerIndex: number
 	currentQuestion: any
 }) {
-	const [helpersStatus, setHelpersStatus] = useState([])
+	const [helpersStatus, setHelpersStatus] = useState<{ name: string; available: boolean }[]>([])
 	const [isViewersResultOpen, setIsViewersResultOpen] = useState<boolean>(false)
 	const [isFriendCallOpen, setIsFriendCallOpen] = useState<boolean>(false)
+	const [isQuitBtnClicked, setIsQuitBtnClicked] = useState<boolean>(false)
 
 	useEffect(() => {
 		getHelpersStatus()
@@ -38,11 +40,17 @@ export default function HelperBtns({
 	const handleViewersPanel = async () => {
 		await handleGameHelpers('public', false)
 		setIsViewersResultOpen(prevState => !prevState)
+		document.body.classList.toggle('active-shadow')
 	}
 
 	const makeAFriendCall = async () => {
 		await handleGameHelpers('friendCall', false)
 		setIsFriendCallOpen(prevState => !prevState)
+	}
+
+	const handleQuitBtn = () => {
+		setIsQuitBtnClicked(prevState => !prevState)
+		redirect('/game/game-over')
 	}
 
 	let fiftyBtnStatus = helpersStatus.find((item: { name: string }) => item.name === '50/50')
@@ -71,7 +79,12 @@ export default function HelperBtns({
 					disabled={friendCall?.available === false || false}
 					onClick={makeAFriendCall}
 				/>
-				<HelperBtn name='Quit' icon={<Power width={48} height={48} />} />
+				<HelperBtn
+					name='Quit'
+					icon={<Power width={48} height={48} />}
+					onClick={handleQuitBtn}
+					disabled={isQuitBtnClicked}
+				/>
 				{isViewersResultOpen &&
 					createPortal(
 						<ViewersModal onHandleModal={handleViewersPanel} correctAnswerIndex={correctAnswerIndex} />,

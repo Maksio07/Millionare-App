@@ -1,3 +1,8 @@
+export interface VoteRange {
+    min: number;
+    max: number;
+}
+
 export const generateRandomNumber = (min: number, max: number) => {
 	if (min > max) {
 		throw new Error('Min cannot be greater than max.')
@@ -6,7 +11,7 @@ export const generateRandomNumber = (min: number, max: number) => {
 	return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-export const generateNumbersWithSum = (ranges: Range[], targetSum: number = 100): number[] => {
+export const generateNumbersWithSum = (ranges: VoteRange[], targetSum: number = 100): number[] => {
 	if (ranges.length !== 4) {
 		throw new Error('Musisz podać 4 przedziały.')
 	}

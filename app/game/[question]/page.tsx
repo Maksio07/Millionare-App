@@ -26,6 +26,7 @@ export default async function Question({ params }: PageProps) {
 	const questionNumber = generatedQuestionIds.indexOf(questionId)
 	const currentQuestion = generatedQuestionIds[questionNumber]
 	const currentQuestionData = questions.find(q => q.id === questionId)
+	
 
 	if (!currentQuestion) {
 		redirect('/')

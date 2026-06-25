@@ -9,7 +9,7 @@ import { shuffleArray } from '@/src/util/shuffleArray'
 export async function startGame() {
 	const selectedIds: string[] = []
 	const generatedQuestions = getGameQuestions(questions)
-	const helpers: object[] = [
+	const helpers: { name: string; available: boolean }[] = [
 		{ name: '50/50', available: true },
 		{ name: 'public', available: true },
 		{ name: 'friendCall', available: true },
@@ -53,7 +53,7 @@ export async function getAnswers() {
 
 	const currentQuestion = questions.find(q => q.id === currentId)
 	const answers = shuffleArray(currentQuestion?.answers)
-	const randomAnswer = answers[(Math.random() * (answers.length - 1)).toFixed(0)]
+	const randomAnswer = answers[Math.floor(Math.random() * answers.length)]
 
 	if (answers) {
 		return { answers, randomAnswer }

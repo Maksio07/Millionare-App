@@ -16,7 +16,7 @@ export default function GameDashboard({
 }) {
 	return (
 		<>
-			<h2 className='mt-44 text-[2.8rem] font-medium text-[#ebcc1b] text-center'>
+			<h2 className='mt-44 text-[2.8rem] font-medium text-[#e4e429] text-center'>
 				Pytanie za {amounts[currentIndex].name} zł
 			</h2>
 			<Image width={200} height={200} className='mt-12 rounded-full' alt='Millionaire app icon.' src={logo} />
@@ -26,6 +26,7 @@ export default function GameDashboard({
 				currentQuestion={currentQuestion}
 				questionNumber={currentIndex}
 				loadedQuestionsIds={loadedQuestionsIds}
+				questionPrice={amounts[currentIndex].name}
 			/>
 		</>
 	)

@@ -82,7 +82,7 @@ export default function FriendCallBox({ currentQuestion }: { currentQuestion: an
 				transition={{ duration: 5, times: [0, 0.5, 3, 5], delay: 19 }}>
 				<div className='mt-12 bg-blue-950/40 border border-blue-800/60 rounded-xl p-4 text-[1.6rem] text-slate-300 overflow-hidden'>
 					<motion.p>
-						Moja odpowiedź to: <span className='text-yellow-300 font-medium'>{randomAnswer}</span> <br />
+						Moja odpowiedź to: <span className='text-yellow-300 font-medium'>- {randomAnswer}</span> <br />
 						Mam nadzieję, że pomogłem 😊
 					</motion.p>
 				</div>

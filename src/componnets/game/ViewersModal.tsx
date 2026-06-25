@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { X } from 'lucide-react'
 import ViewersModalItem from './ViewersModalItem'
 import data from '@/src/data/viewersModalData.json'
-import { generateNumbersWithSum } from '@/src/util/generateRandomNumbers'
+import { generateNumbersWithSum, VoteRange } from '@/src/util/generateRandomNumbers'
 import styles from './game.module.css'
 
 export default function ViewersModal({
@@ -14,7 +14,7 @@ export default function ViewersModal({
 }) {
 	const [votes, setVotes] = useState<number[]>([])
 
-	const viewersVote: Range[] = [
+	const viewersVote: VoteRange[] = [
 		{ min: 23, max: 45 },
 		{ min: 15, max: 32 },
 		{ min: 10, max: 30 },
@@ -34,8 +34,8 @@ export default function ViewersModal({
 		<>
 			<div className={`${styles.modal__shadow}`}></div>
 			<div
-				className={`${styles.modal} fixed top-[50%] left-[50%] translate-x-[-50%] p-4 translate-y-[-50%] h-96 w-150 bg-red-100 z-50`}>
-				<h3 className='my-8 text-center text-white text-[2.2rem]'>Głosy publiczności</h3>
+				className={`${styles.modal} fixed top-[50%] left-[50%] translate-x-[-50%] p-4 translate-y-[-50%] h-96 w-150 bg-red-100 z-50 max-[390px]:w-120 max-[320px]:w-98`}>
+				<h3 className='my-8 text-center text-white text-[2.2rem] max-[320px]:mt-12'>Głosy publiczności</h3>
 				<X
 					width={28}
 					height={28}

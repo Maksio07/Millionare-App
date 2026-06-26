@@ -17,11 +17,15 @@ export default function HelperBtns({
 	disabledAnswers,
 	correctAnswerIndex,
 	currentQuestion,
+	questionNumber,
+	questionPrice,
 }: {
 	onFiftyFiftyFilter: any
 	disabledAnswers: any
 	correctAnswerIndex: number
 	currentQuestion: any
+	questionNumber: number
+	questionPrice: number
 }) {
 	const [helpersStatus, setHelpersStatus] = useState<{ name: string; available: boolean }[]>([])
 	const [isViewersResultOpen, setIsViewersResultOpen] = useState<boolean>(false)
@@ -50,7 +54,7 @@ export default function HelperBtns({
 
 	const handleQuitBtn = () => {
 		setIsQuitBtnClicked(prevState => !prevState)
-		redirect('/game/game-over')
+		redirect(`/game/game-over?quesnumber=${questionNumber + 1}&money=${questionPrice}`)
 	}
 
 	let fiftyBtnStatus = helpersStatus.find((item: { name: string }) => item.name === '50/50')

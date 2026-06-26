@@ -76,6 +76,8 @@ export default function Answers({
 				disabledAnswers={disabledAnswers}
 				correctAnswerIndex={loadedAnswers.findIndex(item => item === currentQuestion.answers[0])}
 				currentQuestion={currentQuestion}
+				questionNumber={questionNumber}
+				questionPrice={questionPrice}
 			/>
 			{loadedAnswers.map((answer: string) => {
 				const isSelected = answer === selectedAnswer

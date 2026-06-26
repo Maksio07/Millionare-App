@@ -18,7 +18,7 @@ export default function Header() {
 					className={`${styles.header__image} rounded-[100%]`}
 					loading='eager'
 				/>
-				<StartGameButton />
+				<StartGameButton text='Zacznij Grę' customStyles={'my-12'} />
 			</div>
 		</header>
 	)

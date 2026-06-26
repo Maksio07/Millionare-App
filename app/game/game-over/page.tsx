@@ -1,6 +1,6 @@
 'use client'
 import { useSearchParams } from 'next/navigation'
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { motion } from 'motion/react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -11,7 +11,7 @@ import StartGameButton from '@/src/componnets/header/StartGameButton'
 import LeaderBoardList from '@/src/componnets/rules/LeaderBoardList'
 import styles from './game-over.module.css'
 
-export default function GameOver() {
+function GameOverContent() {
 	const searchParams = useSearchParams()
 	const quesNumberParam = searchParams.get('quesnumber')
 	const quesNumber: number = quesNumberParam ? parseInt(quesNumberParam) : 0
@@ -42,6 +42,7 @@ export default function GameOver() {
 				<h2 className='mb-8 text-5xl text-center text-[#e4e429] uppercase'>Wygrałeś:</h2>
 				<p className='text-6xl text-center text-[#e4e429]'>{moneyToWin}</p>
 			</div>
+
 			<div
 				className={`relative flex flex-col items-center justify-center -mt-32 w-180 h-75 bg-blue-950/40 border border-blue-600/60 rounded-xl p-4 text-[1.6rem] text-slate-300 max-[470px]:w-140 max-[375px]:w-120 max-[320px]:w-100`}>
 				<p className='absolute top-[50%] translate-y-[-50%] uppercase text-3xl text-center'>
@@ -81,5 +82,13 @@ export default function GameOver() {
 				</motion.div>
 			)}
 		</>
+	)
+}
+
+export default function GameOver() {
+	return (
+		<Suspense fallback={<p className='text-center text-3xl text-[#e4e429]'>Ładuję dane...</p>}>
+			<GameOverContent />
+		</Suspense>
 	)
 }

@@ -10,7 +10,7 @@ import Image from 'next/image'
 import logo from '@/public/logo.jpg'
 import styles from './navigation.module.css'
 
-export default function Navigation() {
+function NavigationComponent() {
 	const [pathWithHash, setPathWithHash] = useState<string>('')
 	const searchParams = useSearchParams()
 	const path: string = usePathname()
@@ -55,6 +55,14 @@ export default function Navigation() {
 					)}
 				</div>
 			</nav>
+		</Suspense>
+	)
+}
+
+export default function Navigation() {
+	return (
+		<Suspense fallback={<p className='text center text-3xl text-white'>Loading...</p>}>
+			<NavigationComponent />
 		</Suspense>
 	)
 }

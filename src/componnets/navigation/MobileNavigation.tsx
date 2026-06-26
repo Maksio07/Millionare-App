@@ -1,3 +1,5 @@
+'use client'
+
 import { usePathname } from 'next/navigation'
 import NavLink from './NavLink'
 import Image from 'next/image'

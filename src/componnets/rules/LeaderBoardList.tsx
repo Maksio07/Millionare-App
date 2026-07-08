@@ -6,25 +6,25 @@ import { Award } from 'lucide-react'
 import styles from './rules.module.css'
 
 export default function LeaderBoardList() {
-	const [data, setData] = useState<any>([{ name: '', amount: '' }])
-	const [isLoading, setIsLoading] = useState<boolean>(false)
-	const [isError, setIsError] = useState<string | null>('')
+	const [data, setData] = useState<any[]>([])
+	const [isLoading, setIsLoading] = useState<boolean>(true)
+	const [isError, setIsError] = useState<string | null>(null)
 
 	const getData = useCallback(async () => {
 		setIsLoading(true)
 		try {
-			const data = await getUserMoney()
-			setData(data)
+			const result = await getUserMoney()
+			setData(Array.isArray(result) ? result : [])
 		} catch (error) {
 			setIsError('Coś poszło nie tak')
+		} finally {
+			setIsLoading(false)
 		}
-
-		setIsLoading(false)
 	}, [])
 
 	useEffect(() => {
 		getData()
-	}, [])
+	}, [getData])
 
 	return (
 		<ul>
@@ -32,7 +32,7 @@ export default function LeaderBoardList() {
 			{isLoading ? (
 				<p className='text center text-3xl text-white'>Loading...</p>
 			) : (
-				data.map((item: any, index: number) => {
+				(data || []).map((item: any, index: number) => {
 					const delay = index * 0.05
 					return (
 						<li

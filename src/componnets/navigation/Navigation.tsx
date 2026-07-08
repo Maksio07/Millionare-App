@@ -39,34 +39,36 @@ function NavigationComponent() {
 	}
 
 	return (
-		<nav className={`${styles.nav} fixed flex w-full h-32`}>
-			<div className='wrapper flex items-center justify-between'>
-				<div className='flex items-center ml-4'>
-					<Link href={'/'}>
-						<Image
-							src={logo}
-							alt='An millionaire show image.'
-							width={80}
-							height={80}
-							className='rounded-[100%]'
-							loading='eager'
-							fetchPriority='high'
-						/>
-					</Link>
-					<NavLink
-						href='/#rules'
-						customStyles={`ml-[2.2rem] ${pathWithHash === '/#rules' && `${styles.active__link}`}`}
-						onClick={''}>
-						Jak grać
-					</NavLink>
+		<Suspense fallback={<p className='text center text-3xl text-white'>Loading...</p>}>
+			<nav className={`${styles.nav} fixed flex w-full h-32`}>
+				<div className='wrapper flex items-center justify-between'>
+					<div className='flex items-center ml-4'>
+						<Link href={'/'}>
+							<Image
+								src={logo}
+								alt='An millionaire show image.'
+								width={80}
+								height={80}
+								className='rounded-[100%]'
+								loading='eager'
+								fetchPriority='high'
+							/>
+						</Link>
+						<NavLink
+							href='/#rules'
+							customStyles={`ml-[2.2rem] ${pathWithHash === '/#rules' && `${styles.active__link}`}`}
+							onClick={''}>
+							Jak grać
+						</NavLink>
+					</div>
+					{width < 420 ? (
+						<MobileNavigation isLogin={isLogin} onLogoutUser={logoutUser} />
+					) : (
+						<IsLoginNavigation isLogin={isLogin} path={path} onLogoutUser={logoutUser} />
+					)}
 				</div>
-				{width < 420 ? (
-					<MobileNavigation isLogin={isLogin} onLogoutUser={logoutUser} />
-				) : (
-					<IsLoginNavigation isLogin={isLogin} path={path} onLogoutUser={logoutUser} />
-				)}
-			</div>
-		</nav>
+			</nav>
+		</Suspense>
 	)
 }
 

@@ -12,7 +12,7 @@ export default function HelperBtn({
 	disabled: boolean
 }) {
 	return (
-		<button name={name} type='button' className={styles.helper__btn} onClick={onClick} disabled={disabled}>
+		<button name={name} type='button' className={styles.helper__btn} onClick={onClick} disabled={disabled} aria-label='name'>
 			{icon}
 		</button>
 	)

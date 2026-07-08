@@ -20,3 +20,42 @@
 .helper__btn:hover:disabled {
 	transform: scale(1);
 }
+
+.form {
+	border: 4px solid white;
+	border-radius: 14px;
+	background: #1e1b4b;
+	box-shadow: 0 0 5px white;
+}
+
+.input {
+	padding: 0.8rem 2.4rem;
+	background: white;
+	font-size: 1.6rem;
+	border-radius: 8px;
+	color: var(--mainBg);
+	box-shadow: 0 0 5px var(--mainBg);
+	outline: none;
+}
+
+.input:focus {
+	box-shadow: 0 0 8px white;
+}
+
+.submit__btn {
+	margin-top: 1rem;
+	padding: 0.8rem 1.6rem;
+	width: 16rem;
+	border: 4px solid white;
+	font-size: 1.6rem;
+	color: white;
+	border-radius: 14px;
+	cursor: pointer;
+	transition: background 0.5s, border 0.5s, color 0.5s;
+}
+
+.submit__btn:hover {
+	background: white;
+	border: 4px solid var(--mainBg);
+	color: var(--mainBg);
+}

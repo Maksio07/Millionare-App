@@ -323,33 +323,49 @@
 		"id": "q54",
 		"text": "Jak długo trwa mecz piłki nożnej?",
 		"answers": ["90 minut", "45 minut", "60 minut", "120 minut"]
+	},
+	{
+		"id": "q55",
+		"text": "Która aktorka grała księżniczkę Leię w Gwiezdnych wojnach?",
+		"answers": ["Carrie Fisher", "Angelina Jolie", "Pamela Anderson", "Nicole Kidman"]
+	},
+	{
+		"id": "q56",
+		"text": "Kto stworzył postać Sherlocka Holmesa?",
+		"answers": ["Arthur Conan Doyle", "Charles Dickens", "Jack London", "Franz Kafka"]
+	},
+	{
+		"id": "q57",
+		"text": "Gdzie w organizmie produkowana jest insulina?",
+		"answers": ["w trzustce", "w wątrobie", "w nerkach", "w sercu"]
+	},
+	{
+		"id": "q58",
+		"text": "Gdzie jest Tadż Mahal?",
+		"answers": ["Agra, Indie", "Rabat, Marokko", "Londyn, Wielka Brytania", "Pekin, Chiny"]
+	},
+	{
+		"id": "q59",
+		"text": "Kto namalował Dziewicę na Skale?",
+		"answers": ["Leonardo da Vinci", "Michał Anioł", "Rafael", "Giovanni Bellini"]
+	},
+	{
+		"id": "q60",
+		"text": "W jakim kraju znajduje się K2, druga co do wysokości góra świata?",
+		"answers": ["Pakistan", "Chiny", "Nepal", "Indie"]
+	},
+	{
+		"id": "q61",
+		"text": "Co symbolizował bóg Thot w starożytnym Egipcie?",
+		"answers": ["mądrość", "łzy", "wojnę", "siłę"]
+	},
+	{
+		"id": "q62",
+		"text": "Jakie jest najszybsze zwierzę na świecie?",
+		"answers": ["Gepard", "Lew", "Leopard", "Hipopotam"]
 	}
 ]
 
-// 68. Która aktorka grała księżniczkę Leię w Gwiezdnych wojnach ?
-// Carrie Fisher.
-
-
-// 69. Zestaw pytań i odpowiedzi – kto stworzył postać Sherlocka Holmesa?
-// Arthur Conan Doyle.
-
-// 70. Gdzie w organizmie produkowana jest insulina?
-// Trzustka.
-
-// 71. Gdzie jest Tadż Mahal?
-// Agra, Indie. „Korona Pałaców” została zbudowana w latach 1631-1653.
-
-// 72. Kto namalował Dziewicę na Skale ?
-// Leonardo da Vinci.
-
-// 73. W jakim kraju znajduje się K2, druga co do wysokości góra świata?
-// Pakistan.
-
-// 74. Co symbolizował bóg Thot w starożytnym Egipcie?
-// Thot był bogiem mądrości. Był także wynalazcą pisma i mecenasem skrybów, sztuki i nauki.
-
-// 75. Jakie jest najszybsze zwierzę na świecie?
-// Gepard. Może osiągnąć 104 kilometrów na godzinę.
 
 // 76. Jak naprawdę nazywała się Marilyn Monroe?
 // Norma Jeane Baker

@@ -11,11 +11,15 @@ export default function Answers({
 	questionNumber,
 	loadedQuestionsIds,
 	questionPrice,
+	isLoggedInUser,
+	userId,
 }: {
 	currentQuestion: any
 	questionNumber: number
 	loadedQuestionsIds: Array<string>
 	questionPrice: number
+	isLoggedInUser: boolean | null
+	userId: number | string
 }) {
 	const router = useRouter()
 	const [isPending, startTransition] = useTransition()
@@ -46,10 +50,18 @@ export default function Answers({
 					if (questionNumber < 11) {
 						router.push(`/game/${loadedQuestionsIds[questionNumber + 1]}`)
 					} else {
-						router.push(`/game/game-over?quesnumber=${questionNumber + 1}&money=${questionPrice}`)
+						router.push(
+							`/game/game-over?quesnumber=${
+								questionNumber + 1
+							}&money=${questionPrice}&loggedIn=${isLoggedInUser}&userId=${userId}`
+						)
 					}
 				} else {
-					router.push(`/game/game-over?quesnumber=${questionNumber + 1}&money=${questionPrice}`)
+					router.push(
+						`/game/game-over?quesnumber=${
+							questionNumber + 1
+						}&money=${questionPrice}&loggedIn=${isLoggedInUser}&userId=${userId}`
+					)
 				}
 				setSelectedAnswer('')
 				setAnswerStatus(null)

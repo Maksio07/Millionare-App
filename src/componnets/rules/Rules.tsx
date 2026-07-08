@@ -8,12 +8,12 @@ import styles from './rules.module.css'
 
 export default function Rules() {
 	return (
-		<section id='zasady' className='rules'>
+		<section id='rules' className='rules'>
 			<div className='wrapper'>
 				<h2 className='text-center text-5xl text-white font-medium'>Jak grać?</h2>
 				<div className='rules__container flex gap-24 flex-wrap items-center justify-center w-full my-16'>
 					<div className={`${styles.rules__card} ${styles.rules__card__one}`}>
-						<button className={`${styles.rules__btn}`} name='Question mark' type='button'>
+						<button className={`${styles.rules__btn}`} name='Question mark' type='button' aria-label='Question mark'>
 							<CircleQuestionMark width={36} height={36} />
 						</button>
 						<div className={`${styles.rules__text}`}>
@@ -22,7 +22,7 @@ export default function Rules() {
 						</div>
 					</div>
 					<div className={`${styles.rules__card} ${styles.rules__card__two}`}>
-						<button className={`${styles.rules__btn}`} name='Question mark' type='button'>
+						<button className={`${styles.rules__btn}`} name='Question mark' type='button' aria-label='Question mark'>
 							<CircleQuestionMark width={36} height={36} />
 						</button>
 						<div className={`${styles.rules__text}`}>
@@ -34,7 +34,7 @@ export default function Rules() {
 						</div>
 					</div>
 					<div className={`${styles.rules__card} ${styles.rules__card__three}`}>
-						<button className={`${styles.rules__btn}`} name='Question mark' type='button'>
+						<button className={`${styles.rules__btn}`} name='Question mark' type='button' aria-label='Question mark'>
 							<CircleQuestionMark width={36} height={36} />
 						</button>
 						<div className={`${styles.rules__text}`}>
@@ -56,7 +56,7 @@ export default function Rules() {
 						</div>
 					</div>
 					<div className={`${styles.rules__card} ${styles.rules__card__four}`}>
-						<button className={`${styles.rules__btn}`} name='Question mark' type='button'>
+						<button className={`${styles.rules__btn}`} name='Question mark' type='button' aria-label='Question mark'>
 							<CircleQuestionMark width={36} height={36} />
 						</button>
 						<div className={`${styles.rules__text} flex flex-col items-center justify-center`}>

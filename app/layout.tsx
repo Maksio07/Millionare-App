@@ -1,5 +1,6 @@
 import { Roboto } from 'next/font/google'
 import Navigation from '@/src/componnets/navigation/Navigation'
+import ConfirmMessageContextProvider from '@/src/store/ConfirmMessageContext'
 import './globals.css'
 
 export const metadata = {
@@ -19,10 +20,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='pl' className={roboto.className}>
-			<body>
-				<Navigation />
-				{children}
-			</body>
+			<ConfirmMessageContextProvider>
+				<body>
+					<Navigation />
+					{children}
+				</body>
+			</ConfirmMessageContextProvider>
 		</html>
 	)
 }

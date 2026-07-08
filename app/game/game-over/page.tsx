@@ -1,7 +1,8 @@
 'use client'
 import { useSearchParams } from 'next/navigation'
-import { useState, Suspense } from 'react'
+import { useState, Suspense, useEffect, useRef } from 'react'
 import { motion } from 'motion/react'
+import { addUserMoney } from '@/app/actions/displayMoney'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '@/public/logo.jpg'
@@ -13,18 +14,37 @@ import styles from './game-over.module.css'
 
 function GameOverContent() {
 	const searchParams = useSearchParams()
+	const hasAddedMoney = useRef(false)
 	const quesNumberParam = searchParams.get('quesnumber')
 	const quesNumber: number = quesNumberParam ? parseInt(quesNumberParam) : 0
 	const [leaderBoardIsShown, setLeaderBoardIsShown] = useState<boolean>(false)
+	const userId: any = searchParams.get('userId')
 	const money = searchParams.get('money')
+	const isLoggedIn = searchParams.get('loggedIn')
 	let moneyToWin: string = ''
+
+	useEffect(() => {
+		if (hasAddedMoney.current) return
+
+		const addUserData = async () => {
+			hasAddedMoney.current = true
+			const moneyToAdd = moneyToWin === '1 000 000 zł' ? 1000000 : money
+			await addUserMoney(moneyToAdd, userId)
+		}
+
+		if (isLoggedIn) {
+			addUserData()
+		} else {
+			return
+		}
+	}, [isLoggedIn, moneyToWin, money, userId])
 
 	if (quesNumber < 3) {
 		moneyToWin = '0 zł'
 	} else if (quesNumber >= 3 && quesNumber < 8) {
 		moneyToWin = '2 000 zł'
 	} else if (quesNumber >= 8 && quesNumber < 12) {
-		moneyToWin = '40 000 zł'
+		moneyToWin = '50 000 zł'
 	} else {
 		moneyToWin = '1 000 000 zł'
 	}
@@ -35,7 +55,15 @@ function GameOverContent() {
 
 	return (
 		<>
-			<Image src={logo} alt='Logo' width={150} height={150} className='mt-44 rounded-[100%]' />
+			<Image
+				src={logo}
+				alt='Logo'
+				width={150}
+				height={150}
+				className='mt-44 rounded-[100%]'
+				fetchPriority='high'
+				loading='eager'
+			/>
 			<h1 className='mt-12 text-center text-7xl text-white font-medium uppercase max-[320px]:text-6xl'>koniec gry!</h1>
 			<div
 				className={`flex flex-col items-center justify-center mt-12 w-180 h-50 z-10 max-[470px]:w-140 max-[375px]:w-120 max-[320px]:w-100 ${styles.status__box}`}>

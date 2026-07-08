@@ -27,8 +27,10 @@
 	transition: opacity 0.3s;
 }
 
-.answer:hover::before {
-	opacity: 1;
+@media (hover: hover) {
+	.answer:hover::before {
+		opacity: 1;
+	}
 }
 
 .answer:disabled:not(.selected__answer):not(.correct__answer):not(.wrong__answer) {

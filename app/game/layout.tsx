@@ -4,8 +4,10 @@ export default function RootLayout({
 	children: React.ReactNode
 }>) {
 	return (
-		<section className={`wrapper question flex flex-col items-center w-full`} id='question'>
-			{children}
-		</section>
+		<main>
+			<section className={`wrapper question flex flex-col items-center w-full`} id='question'>
+				{children}
+			</section>
+		</main>
 	)
 }

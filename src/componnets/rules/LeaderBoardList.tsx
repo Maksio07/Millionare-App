@@ -6,7 +6,7 @@ import { Award } from 'lucide-react'
 import styles from './rules.module.css'
 
 export default function LeaderBoardList() {
-	const [data, setData] = useState<any>([])
+	const [data, setData] = useState<any>([{ name: '', amount: '' }])
 	const [isLoading, setIsLoading] = useState<boolean>(false)
 	const [isError, setIsError] = useState<string | null>('')
 

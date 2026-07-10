@@ -22,7 +22,7 @@ export default function SignupPage() {
 	}, [state?.message, router, confirmMessageCtx])
 
 	return (
-		<main>
+		<main className='max-w-[420px]:pt-32'>
 			<section className='wrapper flex flex-col items-center justify-center min-h-screen'>
 				<Form action={action} title={'Utwórz Konto'} customStyles='min-h-180 max-[420px]:min-h-220'>
 					<InputBox name='name' title='Imię' type='text' />

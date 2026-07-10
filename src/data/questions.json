@@ -363,396 +363,255 @@
 		"id": "q62",
 		"text": "Jakie jest najszybsze zwierzę na świecie?",
 		"answers": ["Gepard", "Lew", "Leopard", "Hipopotam"]
+	},
+	{
+		"id": "q63",
+		"text": "Jak naprawdę nazywała się Marilyn Monroe?",
+		"answers": ["Norma Jeane Baker", "Grażyna Lisiecka", "Kate Madison", "Norma Knight"]
+	},
+	{
+		"id": "q64",
+		"text": "Co jeszcze osiągnęła Hedy Lamarr oprócz bycia znaną aktorką?",
+		"answers": ["Położyła technologiczne podwaliny pod GPS", "Stworzyła nową markę odzieży", "Rozwiązała jedną z zagadek matematyki", "Została królową Norwegii"]
+	},
+	{
+		"id": "q65",
+		"text": "Kim był René Magritte?",
+		"answers": ["Belgijski malarzem", "Generałem Armii Napoleona Bonaparte", "Naukowcem w dzidzinie termodynamiki", "Wybitnym snajperem"]
+	},
+	{
+		"id": "q66",
+		"text": "W którym roku upadł mur berliński?",
+		"answers": ["1989", "1988", "1898", "2001"]
+	},
+	{
+		"id": "q67",
+		"text": "Kto skomponował Wesele Figara?",
+		"answers": [" Wolfgang Amadeusz Mozart", "Fryderyk Chopin", "Ludwig van Beethoven", "Antonio Vivaldi"]
+	},
+	{
+		"id": "q68",
+		"text": "Jaki jest jedyny ssak zdolny do lotu?",
+		"answers": ["Nietoperz", "Pingwin", "Struś", "Delfin"]
+	},
+	{
+		"id": "q69",
+		"text": "Kto napisał słynną powieść Dracula, opublikowaną w 1897 roku?",
+		"answers": ["Brama Stoker", "Honore de Balzac", "Ernest Hemingway", "Emil Zola"]
+	},
+	{
+		"id": "q70",
+		"text": "W jakiej drużynie NBA grał Kobe Bryant od 1996 roku?",
+		"answers": ["Los Angeles Lakers", "Miami Heat", "Boston Celtics", "Houston Rockets"]
+	},
+	{
+		"id": "q71",
+		"text": "Czym jest deszcz Perseidów?",
+		"answers": ["To deszcz meteorytów", "Inaczej deszcz kwasowy", "Mocna ulewa w Grecji", "Zwawisko spadających gwiazd"]
+	},
+	{
+		"id": "q72",
+		"text": "Kim jest Elon Musk?",
+		"answers": ["Przedsiębiorca, wynalazca i potentat", "Astronauta", "Król Hiszpanii", "Gangster z osiedla RZNiW"]
+	},
+	{
+		"id": "q73",
+		"text": "Co robi mózg, kiedy śpimy?",
+		"answers": ["Wykonuje zadania utrwalania pamięci i naprawy", "Śpi razem z nami", "Produkuje energię na następny dzień", "Usuwa wodę z organizmu"]
+	},
+	{
+		"id": "q74",
+		"text": "Która planeta jest najbliżej Słońca?",
+		"answers": ["Merkury", "Wenus", "Ziemia", "Mars"]
+	},
+	{
+		"id": "q75",
+		"text": "Ile zastawek ma ludzkie serce?",
+		"answers": ["Cztery", "Pięć", "Dwie", "Jedną"]
+	},
+	{
+		"id": "q76",
+		"text": "Ile pierwiastków znajduje się w układzie okresowym?",
+		"answers": ["118", "92", "102", "132"]
+	},
+	{
+		"id": "q77",
+		"text": "Jak nazywała się córka Zygmunta Freuda, która poświęciła swoje życie psychologii dziecięcej?",
+		"answers": ["Anna Freud", "Katherine Freud", "Maria Freud", "Helda Freud"]
+	},
+	{
+		"id": "q78",
+		"text": "Jakie jest największe zwierzę na świecie?",
+		"answers": ["Płetwal błękitny", "Słoń", "Tygrys", "Pyton"]
+	},
+	{
+		"id": "q79",
+		"text": "Jeśli masz akrofobię, czego się boisz?",
+		"answers": ["Wysokości", "Pająków", "Ludzi", "Wody"]
+	},
+	{
+		"id": "q80",
+		"text": "Akcja której powieści Stephena Kinga rozgrywa się głównie w hotelu Overlook?",
+		"answers": ["Lśnienie", "Bastion", "Pan Mercedes", "Outsider"]
+	},
+	{
+		"id": "q81",
+		"text": "Gdzie znajduje się najmniejsza kość w ludzkim ciele?",
+		"answers": ["w uchu środkowym", "W nosie", "W kolanie", "W łopatce"]
+	},
+	{
+		"id": "q82",
+		"text": "Ile serc ma ośmiornica?",
+		"answers": ["Trzy", "Jedno", "Osiem", "Cztery"]
+	},
+	{
+		"id": "q83",
+		"text": "Kto według Marvela jest bratem Thora?",
+		"answers": ["Loki", "Hulk", "Doctor Strange", "Captain America"]
+	},
+	{
+		"id": "q84",
+		"text": "Jak nazywa się fikcyjny statek kosmiczny, który pojawia się w filmie Alien?",
+		"answers": ["USCSS Nostromo", "Strzała", "US Army", "USCSS Wostok"]
+	},
+	{
+		"id": "q85",
+		"text": "Jaka jest fachowa nazwa wąsów u kotów?",
+		"answers": ["Wibrysy", "Wąsiki", "Wibryski", "Ogonki"]
+	},
+	{
+		"id": "q86",
+		"text": "Kiedy zakończyła się II wojna światowa?",
+		"answers": ["8 maja 1945 roku", "7 stycznia 1945 roku", "1 września 1939 roku", "22 czerwca 1943 roku"]
+	},
+	{
+		"id": "q87",
+		"text": "Jaki jest jedyny ssak, który nie potrafi skakać?",
+		"answers": ["Słoń", "Kot", "Delfin", "Nietoperz"]
+	},
+	{
+		"id": "q88",
+		"text": "Jaka była pierwsza powieść napisana na maszynie do pisania?",
+		"answers": ["Tomek Sawyer", "Ojciej Goriot", "Proces", "Stary człowiek i morze"]
+	},
+	{
+		"id": "q89",
+		"text": "Kto pierwszy postawił stopę na Księżycu?",
+		"answers": ["Neil Armstrong", "Jurii Gagarin", "Buzz Aldrin", "Scott Kelly"]
+	},
+	{
+		"id": "q90",
+		"text": "Jaki jest najdroższy metal na świecie?",
+		"answers": ["Rod", "Złoto", "Platyna", "Miedź"]
+	},
+	{
+		"id": "q91",
+		"text": "Ile kości znajduje się w ludzkim ciele?",
+		"answers": ["206", "208", "194", "198"]
+	},
+	{
+		"id": "q92",
+		"text": "Jaki jest największy ocean?",
+		"answers": ["Spokojny", "Atlantycki", "Indyjski", "Platynowy"]
+	},
+	{
+		"id": "q93",
+		"text": "Jaki był pierwszy metal użyty przez człowieka?",
+		"answers": ["Miedź", "Złoto", "Stal", "Aluminium"]
+	},
+	{
+		"id": "q94",
+		"text": "Jak nazywa się trójkąt o trzech równych bokach?",
+		"answers": ["Trójkątem równobocznym", "Trójkątem równym", "Trójkątem równokątnym", "Trójkątem równoustawionym"]
+	},
+	{
+		"id": "q95",
+		"text": "Kto powiedział: „Wiem, że nic nie wiem?”",
+		"answers": ["Sokrates", "Władimir Lenin", "Juliusz Cesar", "Oktawian August"]
+	},
+	{
+		"id": "q96",
+		"text": "Jaki jest najstarszy zachowany język w Europie?",
+		"answers": ["Baskijski", "Grecki", "Flamandzki", "Norweski"]
+	},
+	{
+		"id": "q97",
+		"text": "W którym roku miała miejsce rewolucja francuska?",
+		"answers": ["1789", "1812", "1773", "1648"]
+	},
+	{
+		"id": "q98",
+		"text": "Z jakiego kraju pochodzi kawa?",
+		"answers": ["Z Etiopii", "Z Brazylii", "Z Indii", "Z Kongo"]
+	},
+	{
+		"id": "q99",
+		"text": "Jaki jest największy organ w ludzkim ciele?",
+		"answers": ["Skóra", "Noga", "Mózg", "Wątroba"]
+	},
+	{
+		"id": "q100",
+		"text": "Jaki jest kraj z najmniejszą liczbą mieszkańców na świecie?",
+		"answers": ["Watykan", "Luksemburg", "San Marino", "Monako"]
+	},
+	{
+		"id": "q101",
+		"text": "Jakie zwierzę jest odpowiedzialne za największą liczbę zgonów każdego roku?",
+		"answers": ["Komar", "Mucha", "Osa", "Kleszcz"]
+	},
+	{
+		"id": "q102",
+		"text": "Jaki jest najtwardszy minerał na planecie?",
+		"answers": ["Diament", "Rubin", "Gips", "Szmaragd"]
+	},
+	{
+		"id": "q103",
+		"text": "Jaki był pierwszy film Disneya?",
+		"answers": ["Królewna Śnieżka i siedmiu krasnoludków", "Pinokio", "Bambi", "Aladyn"]
+	},
+	{
+		"id": "q104",
+		"text": "Jaki antybiotyk zabija wirusy?",
+		"answers": ["Żaden", "Antywirusowy", "Penicylina", "Aminoglikozyda"]
+	},
+	{
+		"id": "q105",
+		"text": "Kto napisał książkę 'Krótka historia czasu: od wielkiego wybuchu do czarnych dziur'?",
+		"answers": ["Stephen Hawking", "Stephen King", "Mikołaj Kopernik", "Galileusz"]
+	},
+	{
+		"id": "q106",
+		"text": "Jak nazywa się ruch, który odrzuca wykorzystywanie substancji pochodzenia zwierzęcego?",
+		"answers": ["Weganizm", "Debilizm", "Wegetarianizm", "Roślinożerstwo"]
+	},
+	{
+		"id": "q107",
+		"text": "Dlaczego psy machają ogonami?",
+		"answers": ["Z radości", "Z agresji", "Z bólu", "Z głodu"]
+	},
+	{
+		"id": "q108",
+		"text": "W którym roku rozpoczęła się epoka współczesna?",
+		"answers": ["1789", "1991", "1918", "1492"]
+	},
+	{
+		"id": "q109",
+		"text": "Kto zarządził zrzucenie bomb atomowych na Hiroszimę i Nagasaki?",
+		"answers": ["Harry Truman", "Abraham Lincoln", "Franklin Roosevelt", "Dwight Eisenhower"]
+	},
+	{
+		"id": "q110",
+		"text": "Jaki dramaturg ukuł frazę „Bo całe życie jest snem, a sny same w sobie są tylko snami”?",
+		"answers": ["Pedro Calderon de la Barca", "William Shakespear", "Antoni Czechow", "Moliere"]
+	},
+	{
+		"id": "q111",
+		"text": "Kto pierwszy opłynął świat?",
+		"answers": ["Magellan", "Francis Drake", "Krzysztof Kolumb", "Vasco da Gama"]
+	},
+	{
+		"id": "q112",
+		"text": "Co chroni nas przed ultrafioletowym promieniowaniem słonecznym?",
+		"answers": ["Warstwa ozonowa", "Chmury", "Ubrania z bawełny", "Stratosfera"]
 	}
 ]
-
-
-// 76. Jak naprawdę nazywała się Marilyn Monroe?
-// Norma Jeane Baker
-
-// 78. Co jeszcze osiągnęła Hedy Lamarr oprócz bycia znaną aktorką?
-// Oprócz tego, że była jedną z najwybitniejszych aktorek lat czterdziestych i pięćdziesiątych XX wieku, Hedy Lamarr opracowała technologię w"id"ma rozproszonego, prekursora Wi-Fi, podczas II wojny światowej. Położyła również technologiczne podwaliny pod GPS.
-
-// REKLAMA
-
-// 79. Zestaw pytań i odpowiedzi – kim był René Magritte?
-// Belgijski malarz surrealista. Był znany ze swoich genialnych dzieł, takich jak Kochankowie i Syn Człowieczy.
-
-// 80. W którym roku upadł mur berliński?
-// W listopadzie 1989 r.
-
-// 81. Kto skomponował Wesele Figara?
-// Wolfgang Amadeusz Mozart.
-
-// 82. Jaki jest jedyny ssak zdolny do lotu?
-// Nietoperz.
-
-// 83. Kto napisał słynną powieść Dracula, opublikowaną w 1897 roku?
-// Brama Stokera.
-
-// 84. W jakiej drużynie NBA grał Kobe Bryant od 1996 roku?
-// Kobe Bryant grał w Los Angeles Lakers aż do śmierci.
-
-// 85. Czym jest deszcz Perse"id"ów?
-// To deszcz meteorytów, który jest najbardziej w"id"oczny w sierpniu z półkuli północnej. Błyski te są wytwarzane przez materiały rozpadających się komet wchodzących w ziemską atmosferę.
-
-// REKLAMA
-
-// 86. Kim jest Elon Musk?
-// Fizyk, przedsiębiorca, wynalazca i potentat. Był współzałożycielem PayPal, SpaceX, Hyperloop, SolarCity, The Boring Company, Neuralink i OpenAI.
-
-// 87. Co robi mózg, kiedy śpimy?
-// Mózg jest niezwykle aktywny, kiedy śpimy. Wykonuje zadania detoksykacji, utrwalania pamięci i naprawy.
-
-// 88. Która planeta jest najbliżej Słońca?
-// Merkury. Jest też najmniejszą (poza planetami karłowatymi).
-
-// 89. Zestaw pytań i odpowiedzi – ile zastawek ma ludzkie serce?
-// Ma cztery zastawki: mitralną, trójdzielną, aortalną i płucną.
-
-// REKLAMA
-// 90. Ile pierwiastków znajduje się w układzie okresowym?
-// Obecnie układ okresowy zawiera 118 pierwiastków chemicznych. 26 z nich wykonano w laboratorium.
-
-// 91. Kto był reżyserem filmu Metropolis z 1927 roku?
-// Fritza Langa.
-
-// 92. Jak nazywała się córka Zygmunta Freuda, która poświęciła swoje życie psychologii dziecięcej?
-// Anna Freud była szóstą i ostatnią córką Zygmunta Freuda i Marthy Bernays. Swoją karierę skierowała na dziedzinę psychologii dziecięcej.
-
-// 93. Jakie jest największe zwierzę na świecie?
-// Płetwal błękitny.
-
-// 94. Jeśli masz akrofobię, czego się boisz?
-// Akrofobia to lęk wysokości.
-
-// 95. Akcja której powieści Stephena Kinga rozgrywa się głównie w hotelu Overlook?
-// Lśnienie.
-
-// 96. Gdzie znajduje się najmniejsza kość w ludzkim ciele?
-// Ucho środkowe. To strzemię. Ma długość od 2,5 do 3 milimetrów i należy do łańcucha kosteczek słuchowych.
-
-// REKLAMA
-// 97. Zestaw pytań i odpowiedzi – ile serc ma ośmiornica?
-// Trzy.
-
-// 98. Kto według Marvela jest bratem Thora?
-// Według Marvel Comics przybranym bratem Thora jest Loki.
-
-// 99. Jak nazywa się fikcyjny statek kosmiczny, który pojawia się w filmie Alien?
-// Statek kosmiczny nazwano USCSS Nostromo.
-
-// 100. Jaka jest fachowa nazwa wąsów u kotów?
-// Sztywne małe włosy, które tworzą wąsy kotów , są również nazywane wibrysami.
-
-// 101. Kiedy zakończyła się II wojna światowa?
-// Zakończyło się kapitulacją Niemiec 8 maja 1945 roku.
-
-// 102. Jaki jest jedyny ssak, który nie potrafi skakać?
-// Słoń.
-
-// 103. Jaka była pierwsza powieść napisana na maszynie do pisania?
-// Tomek Sawyer. Została napisana przez Marka Twaina i została opublikowana w latach 1876-1878.
-
-// REKLAMA
-// 104. Kto ozdobił malow"id"łami Kaplicę Sykstyńską?
-// Sklepienie Kaplicy Sykstyńskiej składa się z serii fresków namalowanych przez Michała Anioła.
-
-// 105. Zestaw pytań i odpowiedzi – kto pierwszy postawił stopę na Księżycu?
-// Neil Armstrong.
-
-// 106. Jaki jest najdroższy metal na świecie?
-// Chociaż niektórzy myślą, że to złoto lub platyna, w rzeczywistości jest to rod.
-
-// 107. Ile kości znajduje się w ludzkim ciele?
-// Dorosły ma ich 206, a noworodek około 300.
-
-// 108. Zestaw pytań i odpowiedzi – jaki jest największy ocean?
-// Ocean Spokojny o łącznej powierzchni 165 700 000 km².
-
-// 109. Jaki jest najlepiej sprzedający się album w historii?
-// Michaela Jacksona, Thriller. Szacuje się, że sprzedano od 51 do 65 milionów egzemplarzy.
-
-// REKLAMA
-// 110. Jaki był pierwszy metal użyty przez człowieka?
-// Miedź.
-
-// 111. Jak nazywa się trójkąt o trzech równych bokach?
-// Trójkąt równoboczny.
-
-// 112. Co jaki czas składano lustrum?
-// Co pięć lat.
-
-// 113. Kto powiedział: „Wiem, że nic nie wiem?”
-// Sokrates.
-
-// 114. Jaki jest najstarszy zachowany język w Europie?
-// Uważa się, że jest to język baskijski, używany w części Hiszpanii i Francji. Ponieważ jest to jedyny język w Europie, który nie ma wyraźnego związku z żadnym innym, eksperci szacują, że jego pochodzenie jest starsze niż ludów iberyjskich i celtyckich.
-
-// REKLAMA
-// 115. W którym roku miała miejsce rewolucja francuska?
-// w 1789 r.
-
-// 116. Zestaw pytań i odpowiedzi – z jakiego kraju pochodzi kawa?
-// Etiopia, Afryka.
-
-// 117. Jaki jest największy organ w ludzkim ciele?
-// Skóra.
-
-// 118. Jaki jest kraj z najmniejszą liczbą mieszkańców na świecie?
-// Watykan.
-
-// 119. Co należy do siedmiu cudów współczesnego świata?
-// Chichén Itzá, Koloseum, Chrystus Odkupiciel, Wielki Mur Chiński, Petra, Taj Mahal i Machu Picchu.
-
-// 120. Jakie zwierzę jest odpowiedzialne za największą liczbę zgonów każdego roku?
-// Choć może się to wydawać zaskakujące, zwierzęciem, które powoduje najwięcej zgonów, jest komar.
-
-// 121. Jaki jest najtwardszy minerał na planecie?
-// Diament.
-
-// 122. Zestaw pytań i odpowiedzi – jaki był pierwszy film Disneya?
-// Królewna Śnieżka i siedmiu krasnoludków. Został wydany w 1937 roku.
-
-// REKLAMA
-// 123. Jaki antybiotyk zabija wirusy?
-// Żaden. Antybiotyki zabijają bakterie.
-
-// 124. Kto napisał książkę Krótka historia czasu: od wielkiego wybuchu do czarnych dziur?
-// Stephen Hawking.
-
-// Hawking - zestaw pytań i odpowiedzi
-
-// 125. Kto napisał Harry’ego Pottera?
-// J.K. Rowling.
-
-// 126. Jak nazywa się ruch, który odrzuca wykorzystywanie substancji pochodzenia zwierzęcego?
-// Weganizm.
-
-// 127. Dlaczego psy machają ogonami?
-// Z reguły merdają ogonami, gdy są podekscytowane. Może to być również spowodowane radością lub zdenerwowaniem.
-
-// 128. W którym roku wybuchła hiszpańska wojna domowa?
-// w 1936 roku.
-
-// 129. W którym roku się skończyła?
-// w 1939 roku.
-
-// 130. Kto doszedł do władzy po zakończeniu tej wojny?
-// Dyktator Francisco Franco.
-
-// 131. Jakiego koloru jest flaga kapitulacji?
-// Biała.
-
-// 132. W którym roku rozpoczęła się epoka współczesna?
-// W 1789 r., wraz z rewolucją francuską.
-
-// 133. Kto napisał Archiwum Burzowego Światła?
-// Brandon Sanderson.
-
-// 134. Kto jako pierwszy odbył podróż w kosmos?
-// Walentyna Tereshkova.
-
-// 135. Kto napisał Opowieść podręcznej?
-// Małgorzata Atwood.
-
-// REKLAMA
-// 136. Jaka była pierwsza gra w"id"eo?
-// Ogromna maszyna o nazwie Mózg Bertie. Została wynaleziona w 1950 roku i umożliwiała grę w kółko i krzyżyk.
-
-// 137. Kim był Frankenstein, potworem czy naukowcem?
-// Naukowcem. Potwór nie miał własnego imienia.
-
-// 138. Kto występuje w sadze gier w"id"eo, The Legend of Zelda?
-// Bohater nazywa się Link.
-
-// 139. Kto zarządził zrzucenie bomb atomowych na Hiroszimę i Nagasaki?
-// Prezydent USA Harry S. Truman.
-
-// 140. Kiedy rozpoczęła się rosyjska inwazja na Ukrainę?
-// Putin rozpoczął inwazję 24 lutego 2022 r.
-
-// 141. Zestaw pytań i odpowiedzi – jaka była pierwsza sztuczna inteligencja?
-// Warren McCulloch i Walter Pitts stworzyli sztuczny model neuronowy w 1943 roku. Uznano go za pierwszą sztuczną inteligencję w historii.
-
-// REKLAMA
-// 142. Jaki dramaturg ukuł frazę „Bo całe życie jest snem, a sny same w sobie są tylko snami”?
-// Pedro Calderon de la Barca.
-
-// 143. Kiedy zniknęły dinozaury?
-// 65 milionów lat temu.
-
-// 144. Kto pierwszy opłynął świat?
-// Magellan i Elcano.
-
-// 145. Który kraj jako pierwszy zezwolił kobietom na głosowanie?
-// Nowa Zelandia.
-
-// 146. Jakie pasmo górskie oddziela Hiszpanię od Francji?
-// Pireneje.
-
-// 147. Zestaw pytań i odpowiedzi – kto namalował Krzyk?
-// Edvard Munch.
-
-// 148. Co chroni nas przed ultrafioletowym promieniowaniem słonecznym?
-// Warstwa ozonowa.
-
-// 149. Na jakie królestwa dzielą się żywe istoty?
-// Zwierzęta, rośliny, grzyby, protisty i monery.
-
-// 150. Kto skomponował IX Symfonię?
-// Beethoven.
-
-// 151. Jakie są stany materii?
-// Ciało stałe, ciecz, gaz, plazma i kondensat Bosego-Einsteina.
-
-// 152. Jakie ciało niebieskie przestało być uważane za planetę w 2006 roku?
-// Pluton.
-
-// 153. Jaka jest najdłuższa kość w ludzkim ciele?
-// Kość udowa.
-
-// 154. Zestaw pytań i odpowiedzi – ile rdzennych języków istnieje w Brazylii?
-// Ponad 150.
-
-// 155. Jak nazywał się statek Karola Darwina?
-// Beagle.
-
-// 156. Kto wynalazł łódź podwodną?
-// Cornelius Jacobszoon Drebbel.
-
-// 157. W którym roku Chile uzyskało niepodległość od Cesarstwa Hiszpańskiego?
-// W 1818 r.
-
-// REKLAMA
-// 158. Jak się nazywa stolica Imperium Inków?
-// Cuzco.
-
-// 159. Kto wynalazł programowanie?
-// Ada Lovelace, kobieta, która opracowała pierwszy algorytm.
-
-// 160. Zestaw pytań i odpowiedzi – jakie jest narodowe zwierzę Szkocji?
-// Jednorożec.
-
-// 161. Ile litrów wody potrzeba do wyprodukowania kilograma mięsa?
-// Od 5000 do 20 000 litrów wody.
-
-// 162. A ile, aby powstał litr mleka?
-// 1000 litrów wody.
-
-// 163. Jakie jest najzimniejsze miejsce na Ziemi?
-// Antarktyda.
-
-// 164. Jak nazywa się stolica Mongolii?
-// Ułan Bator.
-
-// 165. Jakie kraje tworzą Wspólnotę Narodów?
-// Antigua i Barbuda, Australia, Bahamy, Belize, Kanada, Grenada, Jamajka, Nowa Zelandia, Papua-Nowa Gwinea, Saint Kitts i Nevis, Saint Lucia, Saint Vincent i Grenadyny, Wyspy Salomona, Tuvalu i Wielka Brytania.
-
-// REKLAMA
-// 166. Kto napisał Don Kichota ?
-// Miguel de Cervantes.
-
-// 167. W jakim kraju znajduje się Krzywa Wieża w Pizie?
-// Włochy.
-
-// 168. W jakim mieście znajduje się Sagrada Família?
-// Barcelona.
-
-// 169. Kto jest uważany za ojca psychoanalizy?
-// Zygmunt Freud.
-
-// 170. Kto był słynnym królem rock’n’rolla?
-// Elvis Presley.
-
-// 171. Zestaw pytań i odpowiedzi – co oznacza skrót FIFA?
-// Międzynarodowa Federacja Piłki Nożnej.
-
-// 172. Co to jest kartografia?
-// Nauka zajmująca się badaniem map.
-
-// 173. Jaki sport uprawiał Michael Jordan?
-// Koszykówka.
-
-// 174. Jaka jest trzecia planeta od Słońca?
-// Ziemia.
-
-// 175. Jaki jest najbardziej zaludniony kraj na Ziemi?
-// Chiny. Pod koniec 2022 roku liczyły ponad 1,411 mln mieszkańców.
-
-// 176. Zestaw pytań i odpowiedzi – jaki kolor reprezentuje nadzieję?
-// Zielony.
-
-// 177. Jaka dziedzina biologii bada zwierzęta?
-// Zoologia.
-
-// 178. Za jaką dziedzinę artystyczną przyznawane są nagrody Grammy?
-// Muzyka.
-
-// 179. Jak nazywa się hymn narodowy Francji?
-// Marsylianka.
-
-// 180. Z czego zrobiono pergamin?
-// Futro.
-
-// 181. Skąd pochodzi karioka?
-// Rio de Janeiro, Brazylia.
-
-// 182. Kto "id"zie do więzienia: oskarżony, winny czy skazany?
-// Skazany.
-
-// 183. Kto napisał powieść, Ulisses?
-// James Joyce w 1922 roku.
-
-// REKLAMA
-// 184. W której powieści Jane Austen występuje pan Darcy?
-// Duma i uprzedzenie. Po raz pierwszy została opublikowana w 1813 r.
-
-// 185. Jaki jest najbardziej dochodowy film do tej pory?
-// Awatar. Został wydany w 2009 roku.
-
-// 186. Jak nazywał się pierwszy przywódca Związku Radzieckiego?
-// Władimir Iljicz Uljanow, popularnie zwany Leninem.
-
-// 187. Zestaw pytań i odpowiedzi – jaki był pierwszy film w historii?
-// Robotnicy opuszczający fabrykę Lumière w 1895 roku.
-
-// 188. Zestaw pytań i odpowiedzi – kto wynalazł prasę drukarską?
-// Jan Gutenberg.
-
-// 189. Jaka część oka jest wrażliwa na światło?
-// Siatkówka.
-
-// 190. Jak nazywa się największy satelita planety Saturn?
-// Tytan. Jego średnica wynosi 5150 km.
-
-// 191. Jaka jest największa dżungla na świecie?
-// Dżungla amazońska. Obejmuje takie kraje jak Boliwia, Brazylia, Kolumbia, Ekwador, Gujana, Peru, Surinam i Wenezuela.
-
-// REKLAMA
-// 192. Jaki kraj jest znany jako kolebka zachodniej cywilizacji?
-// Grecja.
-
-// 193. Zestaw pytań i odpowiedzi – kto napisał sztukę Hamlet?
-// William Szekspir.
-
-// 194. Zestaw pytań i odpowiedzi – jaka jest stolica Australii?
-// Canberra.
-
-// 195. Jaki gaz jest najbardziej rozpowszechniony w ziemskiej atmosferze?
-// Azot.
-
-// 196. Jaki pierwiastek chemiczny ma symbol Hg?
-// Rtęć.
-
-// 197. Zestaw pytań i odpowiedzi – kto wynalazł żarówkę?
-// Tomasz Edison.
-
-// 198. Jakie miasto jest znane jako miasto drapaczy chmur?
-// Nowy Jork, Stany Zjednoczone.
-
-// 199. Jaki jest najbardziej zaludniony kontynent na świecie?
-// Azja. Zawiera około 60 procent światowej populacji, około 4,6 miliarda ludzi.
-
-// 200. Kto był pierwszą kobietą, która zdobyła Nagrodę Nobla?
-// Maria Curie.

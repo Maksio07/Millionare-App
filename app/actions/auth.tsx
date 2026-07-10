@@ -114,7 +114,8 @@ export async function login(state: FormState, formData: FormData): Promise<FormS
 
 export async function logout() {
 	await deleteSession()
-	redirect('/')
+	
+	redirect('/login')
 }
 
 export async function checkIsUserLogin() {

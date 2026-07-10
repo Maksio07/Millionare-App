@@ -29,7 +29,7 @@ export default function Login() {
 	}, [state?.message, router, confirmMessageCtx])
 
 	return (
-		<main className='max-w-[420px]:pt-32'>
+		<main >
 			<section className='wrapper flex flex-col items-center justify-center min-h-screen'>
 				<ConfirmMessage message={confirmMessageCtx?.message} customStyles='mb-12' />
 				<Form action={action} title='Zaloguj się' customStyles='min-h-160 max-[420px]:min-h-180'>
